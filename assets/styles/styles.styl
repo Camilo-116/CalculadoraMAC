@@ -1,0 +1,59 @@
+html
+    margin: 0
+    padding: 0
+    font-family: 'Montserrat', sans-serif;
+    body
+        margin: 0
+        display: flex
+        height: 100vh
+        justify-content: center
+        align-items: center
+        .ventana
+            display: inherit
+            height: 60vh
+            width: 20vw
+            flex-direction: column
+            .visualizacion
+                display: inherit
+                height: calc(60vh * (2/7))
+                justify-content: right
+                align-items: end
+                font-weight: 100
+                border: 1px solid #4C4C4C
+                padding: 10px 15px
+                font-size: 4em
+                background: #4C4C4C
+                border-top-left-radius: 10px
+                border-top-right-radius: 10px
+                color: white
+            .botones
+                border: 1px solid #4C4C4C
+                border-bottom-left-radius: 10px
+                border-bottom-right-radius: 10px
+                .fila
+                    display: flex
+                    height: calc(60vh * (1/7))
+                    .boton-simple
+                        display: inherit
+                        flex: 1
+                        justify-content: center
+                        align-items: center
+                        border: 0.2px solid #8E8E8E
+                    .boton-doble
+                        display: inherit
+                        flex: 2
+                        justify-content: center
+                        align-items: center
+                        border-bottom-left-radius: 10px
+                        border: 0.2px solid #8E8E8E
+                    .naranja
+                        background: #F69232
+                        color: #FBDFAA
+                        font-size: 2.5em
+                        font-weight: 300
+                    .comun
+                        background: #D6D6D6
+                        color: #0B0B0B
+                        font-size: 1.5em
+                    .esq-inf-der
+                        border-bottom-right-radius: 10px
